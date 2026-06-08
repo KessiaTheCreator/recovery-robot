@@ -1,0 +1,16 @@
+# Virtual Environments
+venv/
+env/
+
+# Large Datasets & Audio
+*.zip
+*.aif
+voice_engine/wavs/
+
+# AI Models & Binaries
+*.onnx
+*.bin
+*.gguf
+
+# Mac/Linux System Files
+.DS_Store
