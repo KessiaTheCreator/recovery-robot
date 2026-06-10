@@ -1,0 +1,17 @@
+{
+  "project_name": "recovery-robot",
+  "environment": {
+    "platform": "Crostini Linux Container",
+    "base_distribution": "Debian/Ubuntu Core",
+    "architecture": "x86_64"
+  },
+  "capabilities": {
+    "local_llm": "llama.cpp via fluffy-zebra",
+    "audio_engine": "ONNX Runtime (TTS Engine)",
+    "vector_store": "ChromaDB (Local Persistence)"
+  },
+  "hardware_bridges": {
+    "android_debug_bridge": "/home/kessiathecreator/platform-tools/adb",
+    "fastboot_bridge": "/home/kessiathecreator/platform-tools/fastboot"
+  }
+}
